@@ -61,7 +61,7 @@ This project is a submission for the **AI Squads Student Portal Redesign Challen
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ai-squads-portal-redesign.git
+git clone https://github.com/Mohamed74567/ai-squads-portal-redesign.git
 
 # Navigate to project directory
 cd ai-squads-portal-redesign

@@ -1,141 +1,178 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# AI Squads Student Portal - Premium Redesign 🚀
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 
-## ✨ Technology Stack
+> A complete redesign of the AI Squads Student Portal (portal.aisquads.org) - transforming a functional interface into a premium, gamified learning experience.
 
-This scaffold provides a robust foundation built with:
+![AI Squads Portal](https://via.placeholder.com/1200x600/0a0a0f/6366f1?text=AI+Squads+Portal+Redesign)
 
-### 🎯 Core Framework
-- **⚡ Next.js 16** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+## 🎯 Challenge Submission
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+This project is a submission for the **AI Squads Student Portal Redesign Challenge**. The goal was to redesign the portal with a fresh visual direction, improved UX, and premium features.
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+## ✨ Key Features
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Fetch** - Promise-based HTTP request
+### 🎮 Gamification System
+- **XP & Leveling** - Earn XP for completing bounties, submitting projects, and maintaining streaks
+- **Badge System** - 4 rarity tiers (Common, Rare, Epic, Legendary) with distinct visual treatments
+- **Streak Tracking** - Daily engagement tracking with fire animations
+- **Leaderboards** - Real-time ranking with relative position visualization
 
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
+### 🎨 Premium Design
+- **Glassmorphism** - Frosted glass cards with backdrop blur effects
+- **Gradient Accents** - Indigo-to-purple color scheme throughout
+- **Micro-animations** - Fade-in, scale, and count-up animations
+- **Dark Theme** - Eye-friendly dark palette optimized for extended use
 
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
+### 📱 Responsive Design
+- Collapsible sidebar that adapts to screen size
+- Mobile-optimized header with quick navigation
+- Touch-friendly interactive elements
+- Fluid grid layouts for all breakpoints
 
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
+### 🖥️ Pages
 
-## 🎯 Why This Scaffold?
+| Page | Description |
+|------|-------------|
+| **Dashboard** | Personalized hero section, weekly progress chart, upcoming deadlines, activity feed, leaderboard preview |
+| **Bounties** | Filterable bounty cards with difficulty levels, XP rewards, deadline countdowns, and progress tracking |
+| **Projects** | Portfolio showcase with featured projects, thumbnails, engagement metrics, and tag filtering |
+| **Squad** | Member directory with online status, level badges, and quick action buttons |
+| **Profile** | Achievement showcase, badge progress, activity history, and XP progression ring |
 
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+## 🛠️ Tech Stack
 
-## 🚀 Quick Start
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: CSS keyframes + transitions
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ or Bun
+- npm, yarn, or bun
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/ai-squads-portal-redesign.git
+
+# Navigate to project directory
+cd ai-squads-portal-redesign
+
 # Install dependencies
 bun install
+# or
+npm install
 
 # Start development server
 bun run dev
-
-# Build for production
-bun run build
-
-# Start production server
-bun start
+# or
+npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
-
-## 🤖 Powered by Z.ai
-
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
-
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
-
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📁 Project Structure
 
 ```
 src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+├── app/
+│   ├── page.tsx          # Main portal page with navigation
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Design system & animations
+├── components/
+│   ├── Dashboard.tsx     # Dashboard with charts & activity feed
+│   ├── Bounties.tsx      # Bounties section with filters
+│   ├── Projects.tsx      # Projects showcase
+│   ├── Squad.tsx         # Member directory
+│   ├── Profile.tsx       # User profile page
+│   ├── Sidebar.tsx       # Collapsible navigation sidebar
+│   ├── GlassCard.tsx     # Premium glass card component
+│   ├── ProgressRing.tsx  # Animated SVG progress rings
+│   ├── AnimatedNumber.tsx# Counting animations
+│   └── StatCard.tsx      # Stats display cards
+└── lib/
+    ├── mockData.ts       # Mock data for demonstration
+    └── utils.ts          # Utility functions
 ```
 
-## 🎨 Available Features & Components
+## 🎨 Design Decisions
 
-This scaffold includes a comprehensive set of modern web development tools:
+### Why Dark Theme?
+Reduces eye strain during extended use, preferred by the target developer audience, and allows vibrant accent colors to stand out effectively.
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+### Why Glassmorphism?
+Creates visual depth and hierarchy, adds a premium feel without overwhelming users, and separates content layers intuitively.
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+### Why XP & Leveling?
+Provides clear progression metrics, motivates continued engagement, and creates tangible achievement milestones.
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+### Why Progress Rings?
+Visually engaging representation of progress, more impactful than simple progress bars, and works well at various sizes from small indicators to hero elements.
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Fetch + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+## 🔧 Customization
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
+### Colors
+The design system uses CSS custom properties defined in `globals.css`:
 
-## 🤝 Get Started with Z.ai
+```css
+--accent-primary: #6366f1;    /* Indigo */
+--accent-secondary: #8b5cf6;  /* Purple */
+--accent-success: #10b981;    /* Emerald */
+--accent-warning: #f59e0b;    /* Amber */
+--accent-error: #f43f5e;      /* Rose */
+```
 
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+### Adding New Pages
+1. Create a new component in `src/components/`
+2. Add navigation item in `src/lib/mockData.ts`
+3. Add icon mapping in `src/components/Sidebar.tsx`
+4. Add route handling in `src/app/page.tsx`
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](https://via.placeholder.com/800x450/0a0a0f/6366f1?text=Dashboard)
+
+### Bounties
+![Bounties](https://via.placeholder.com/800x450/0a0a0f/8b5cf6?text=Bounties)
+
+### Projects
+![Projects](https://via.placeholder.com/800x450/0a0a0f/06b6d4?text=Projects)
+
+### Squad Directory
+![Squad](https://via.placeholder.com/800x450/0a0a0f/10b981?text=Squad)
+
+### Profile
+![Profile](https://via.placeholder.com/800x450/0a0a0f/f59e0b?text=Profile)
+
+## 🤝 Contributing
+
+This is a design challenge submission, but suggestions and improvements are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Design inspiration from [Linear](https://linear.app), [Vercel](https://vercel.com), and [Stripe](https://stripe.com)
+- Gamification concepts from gaming platforms like Steam and Xbox
+- Built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Lucide Icons](https://lucide.dev)
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+**Made with ❤️ for the AI Squads Design Challenge**

@@ -6,7 +6,27 @@
 
 > A complete redesign of the AI Squads Student Portal (portal.aisquads.org) - transforming a functional interface into a premium, gamified learning experience.
 
-![AI Squads Portal](https://via.placeholder.com/1200x600/0a0a0f/6366f1?text=AI+Squads+Portal+Redesign)
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](./public/screenshots/dashboard.png)
+
+### Bounties
+![Bounties](./public/screenshots/bounties.png)
+
+### Projects
+![Projects](./public/screenshots/projects.png)
+
+### Squad Directory
+![Squad](./public/screenshots/squad.png)
+
+### Profile
+![Profile](./public/screenshots/profile.png)
+
+### Mobile Responsive
+![Mobile](./public/screenshots/mobile.png)
+
+---
 
 ## 🎯 Challenge Submission
 
@@ -103,19 +123,39 @@ src/
     └── utils.ts          # Utility functions
 ```
 
-## 🎨 Design Decisions
+## 📝 Design Decisions Write-Up
 
-### Why Dark Theme?
-Reduces eye strain during extended use, preferred by the target developer audience, and allows vibrant accent colors to stand out effectively.
+### Problems Identified in Original Design
 
-### Why Glassmorphism?
-Creates visual depth and hierarchy, adds a premium feel without overwhelming users, and separates content layers intuitively.
+1. **Visual Design Issues**: The original dark theme lacked visual depth. Cards appeared static and lifeless with minimal accent colors to guide attention.
 
-### Why XP & Leveling?
-Provides clear progression metrics, motivates continued engagement, and creates tangible achievement milestones.
+2. **Gamification Shortcomings**: The "0 Badges Earned" display was discouraging for new users. Progress indicators were simple dots without context.
 
-### Why Progress Rings?
-Visually engaging representation of progress, more impactful than simple progress bars, and works well at various sizes from small indicators to hero elements.
+3. **Information Architecture**: The sidebar felt sparse and underutilized. Navigation between sections lacked visual continuity.
+
+4. **Interactive Deficiencies**: Hover states and interactive feedback were minimal. Empty states were not properly handled.
+
+### Design Solutions
+
+**Dark Theme**: Reduces eye strain during extended use, preferred by developers, and allows vibrant accent colors to stand out effectively.
+
+**Glassmorphism**: Creates visual depth and hierarchy, adds a premium feel without overwhelming, and separates content layers intuitively.
+
+**XP & Leveling**: Provides clear progression metrics, motivates continued engagement, and creates tangible achievement milestones.
+
+**Progress Rings**: Visually engaging representation of progress, more impactful than progress bars, and works well at various sizes.
+
+**Animated Numbers**: Draws attention to key metrics, adds dynamic feel to static data, and creates a sense of achievement.
+
+**Badge Rarity System**: Creates aspiration and collection motivation, provides clear differentiation between achievements.
+
+### Design Inspiration
+
+- **Linear** - Clean sidebar navigation and keyboard shortcuts
+- **Vercel** - Dark theme implementation and glassmorphism
+- **Stripe** - Data visualization and progress indicators
+- **Notion** - Card-based content organization
+- **Gaming platforms** (Steam, Xbox) - Gamification elements
 
 ## 🔧 Customization
 
@@ -130,49 +170,19 @@ The design system uses CSS custom properties defined in `globals.css`:
 --accent-error: #f43f5e;      /* Rose */
 ```
 
-### Adding New Pages
-1. Create a new component in `src/components/`
-2. Add navigation item in `src/lib/mockData.ts`
-3. Add icon mapping in `src/components/Sidebar.tsx`
-4. Add route handling in `src/app/page.tsx`
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x450/0a0a0f/6366f1?text=Dashboard)
-
-### Bounties
-![Bounties](https://via.placeholder.com/800x450/0a0a0f/8b5cf6?text=Bounties)
-
-### Projects
-![Projects](https://via.placeholder.com/800x450/0a0a0f/06b6d4?text=Projects)
-
-### Squad Directory
-![Squad](https://via.placeholder.com/800x450/0a0a0f/10b981?text=Squad)
-
-### Profile
-![Profile](https://via.placeholder.com/800x450/0a0a0f/f59e0b?text=Profile)
-
-## 🤝 Contributing
-
-This is a design challenge submission, but suggestions and improvements are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Design inspiration from [Linear](https://linear.app), [Vercel](https://vercel.com), and [Stripe](https://stripe.com)
-- Gamification concepts from gaming platforms like Steam and Xbox
-- Built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Lucide Icons](https://lucide.dev)
+- Design inspiration from Linear, Vercel, and Stripe
+- Gamification concepts from gaming platforms
+- Built with Next.js, Tailwind CSS, and Lucide Icons
 
 ---
 
 **Made with ❤️ for the AI Squads Design Challenge**
+
+**Author**: Mohamed (moeid475@gmail.com)  
+**GitHub**: https://github.com/Mohamed74567/ai-squads-portal-redesign
